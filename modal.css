@@ -1,0 +1,67 @@
+.modal-header{
+  border-bottom: none;
+
+}
+.modal-dialog {
+  width: 600px;
+  margin: 34% auto;
+}
+#container{
+  display: inline-block;
+  padding-left: 30%;
+
+}
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0px;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    outline: 0;
+}
+#out3{
+  display: inline-block;
+}
+#num{
+  display: inline-block;
+}
+#sub{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: black;
+}
+#add{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: black;
+
+}
+#p1{
+  align-content: center;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+#p2{
+  align-content: center;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.footer{
+
+  padding-bottom: 10px;
+  padding-left: 65%;
+}
+
+#Agree{
+  display: inline-block;
+}
+#Cancel{
+  display: inline-block;
+}

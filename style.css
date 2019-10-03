@@ -1,0 +1,93 @@
+
+div{
+font-family: "Arial"
+}
+.contain{
+  margin: 14px 14px;
+}
+.margin{
+  padding-left: 15px;
+}
+
+
+.btns {
+display:inline-block;
+height: 30px;
+width: 30px;
+border-radius: 50%;
+background: red
+
+
+}
+.round{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border-color: grey;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 14px;
+}
+#btns {
+background-color: black; /* Green */
+border: none;
+color: white;
+padding: 15px 72px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4%;
+cursor: pointer;
+border-radius: 24px;
+}
+
+#rev{
+  display: inline;
+  color: darkgrey;
+  padding-left: 25px;
+}
+#out1{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+#out2{
+
+  border: solid;
+  border-color: black;
+  border-width: thin;
+  padding: 12px 32px;
+  border-radius: 24px;
+}
+
+
+.Price{
+  padding-top: 15px;
+}
+
+.Color{
+  padding-top: 15px;
+}
+#price{
+    color: #e50b5e;
+    font-size: 30px;
+}
+#pr{
+  padding-left: 15px;
+  color: darkgrey;
+}
+#per{
+  padding-left: 15px;
+  color: darkgrey;
+}
+.colorbuttons{
+  padding-top: 10px;
+}
+
+#details{
+padding-left: 12px;
+font-size: 20px;
+}
+
+
+</style>
