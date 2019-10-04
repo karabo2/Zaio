@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ZAOI</title>
+
+  </head>
+  <body>
+    <div class=" contain">
+
+
+    <div class="head">
+      <h1><strong id="title">HICKIES Originals</strong></h1>
+    </div>
+    <div class="margin">
+    <div class="stars">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span id="rev"> 1,293 reviews </span>
+    </div>
+    <div class="Price">
+      <span id="price"><strong>$14.99</strong></span>
+      <span id="pr">$17.99</span>
+      <span id="per">25% OFF</span>
+    </div>
+    <div id="txt">
+        <p>ONLINE EXCLUSIVE</p>
+    </div>
+    <div class="Color">
+      <span><strong>Color:</strong></span>
+      <span id="out1"></span>
+      <div id="circle"></div>
+    </div>
+    <p><strong>Size Guide <br><br> Your Custom Fit<strong></p>
+    <div class="bt">
+      <span id="out2"></span>
+      <span><button class="button" id=btns  data-toggle="modal" data-target="#myModal">Add to cart</button><span>
+    </div>
+    </div>
+    <hr>
+    <div class="detail">
+    <strong id="details">Details</strong>
+    <div id="produts"></div>
+    </div>
+    <hr>
+    <div id="circle-container"></div>
+    <div class="last">
+
+        <p>Need Help?</p>
+        <p>Shipping &amp Returns</p>
+    </div>
+  </div>
+  <div class="container">
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <link rel="stylesheet" href="modal.css">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Please add the quantity of the Item you have selected</h4>
+        </div>
+        <div id="container" class="modal-body">
+          <p id="out3"></p>
+          <button id="sub" type="button"class="btn btn-dark" onclick="subFunction()">
+            <p id="p1">&#8722;</p>
+          </button>
+          <p id="num"></p>
+          <button id="add" type="button"class="btn btn-dark" onclick="addFunction()">
+             <p id="p2">&#43;</p>
+           </button>
+        </div>
+        <div class="footer">
+          <button id="Agree" class="btn btn-primary" data-dismiss="modal" type="button" onclick="agrFunction()">
+            <p >Agree</p>
+          </button>
+          <button id="Cancel" class="btn btn-danger" data-dismiss="modal" type="button">
+            <p>Cancel</p>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  </div>
+  <script src="javas.js">
+
+  </script>
+  </body>
+</html>
